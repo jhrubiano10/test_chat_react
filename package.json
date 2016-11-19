@@ -1,0 +1,19 @@
+{
+  "name": "reactjs-chat",
+  "version": "0.0.1",
+  "scripts": {
+    "watch": "watchify ./client/app.jsx -t babelify --outfile ./public/js/app.js",
+    "start": "uglifyjs public/js/app.js -m -c -o public/js/app.min.js"
+  },
+  "dependencies": {
+    "express": "^4.13.1",
+    "react": "^0.13.3",
+    "socket.io": "^1.3.5",
+    "uglifyjs": "^2.4.10"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^10.2.6", 
+    "babel": "^6.3.26"
+  }
+}

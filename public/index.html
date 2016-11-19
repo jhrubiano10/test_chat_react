@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content = "width=device-width, initial-scale=1, maximum-scale=1">
+   <title>Chat React</title>
+   <link rel = "stylesheet" href="css/simple-line-icons.css">      
+   <link rel = "stylesheet" href="css/whirl.css">
+    <link rel = "stylesheet" href="css/bootstrap.css">   
+    <link rel = "stylesheet" href="css/app.css?v=2">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body class="offsidebar-open offsidebar-open layout-fixed"><!-- aside-collapsed //-->
+   <div class="wrapper">      
+      <header class="topnavbar-wrapper">         
+         <nav role="navigation" class="navbar topnavbar">            
+            <div class="navbar-header">
+                  <div class="brand-logo" style="font-size: 1.5em; color:white;">
+                     Chat React
+                  </div>
+               </a>
+            </div>            
+            <div class="nav-wrapper">               
+               <ul class="nav navbar-nav">
+                  <li>                     
+                     <a href="#" data-trigger-resize="" data-toggle-state="aside-collapsed" class="hidden-xs">
+                        <em class="fa fa-navicon"></em>
+                     </a>                     
+                     <a href="#" data-toggle-state="aside-toggled" data-no-persist="true" class="visible-xs sidebar-toggle">
+                        <em class="fa fa-navicon"></em>
+                     </a>
+                  </li>                  
+                  <li>                     
+                     <a id="user-block-toggle" href="#user-block" data-toggle="collapse">
+                        <em class="icon-user"></em>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="nav navbar-nav navbar-right"></ul>               
+            </div>            
+         </nav>         
+      </header>
+      <aside class="aside">         
+         <div class="aside-inner">
+            <nav data-sidebar-anyclick-close="" class="sidebar">               
+               <ul class="nav">                  
+                  <li class="ohas-user-block">
+                     <div id="user-block" class="collapse in"><!--  in //-->
+                        <div class="item user-block">
+                           <div class="user-block-picture">
+                              <div class="user-block-status">
+                                 <img src="img/photo_1.png" alt="Avatar" width="50" height="50">
+                                 <div class="circle circle-success circle-lg"></div>
+                              </div>
+                           </div>                           
+                           <div class="user-block-info">
+                              <span class="user-block-name">Usuario Chat</span>
+                           </div>
+                        </div>
+                     </div>
+                  </li>                  
+                  <li class="nav-heading ">
+                     <span>Navegación</span>
+                  </li>
+                  <li class = "active">
+                     <a href="#" title="Chats">
+                        <em class="icon-speech"></em>
+                        <span data-localize="sidebar.nav.CHAT">Chats</span>
+                     </a>
+                  </li>
+               </ul>               
+            </nav>
+         </div>         
+      </aside>
+    <section>
+        <div id = "divchat">
+            <div id="app"><div/>
+        <div>
+    </section>
+   </div>
+   <script src = "/socket.io/socket.io.js"></script>
+   <script src = "js/notify.min.js"></script>
+    <script src = "js/app.min.js"></script>
+</body>
+</html>

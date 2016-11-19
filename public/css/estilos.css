@@ -1,0 +1,159 @@
+.table-layout
+{
+    display:table;
+    width:100%;         
+    height:100%;
+}
+.table-layout .table-cell
+{
+    display:table-cell;
+    position: relative;
+}
+
+.fixed-width-200
+{
+    width:300px;
+    vertical-align: top;
+}
+
+#divchat
+{
+    border: 1px solid #ccc;
+    height:100vh;
+}
+
+#comment
+{
+    resize: none;
+    width: 100%; 
+    font-size: 1.2em;
+    border-radius: 0px;
+}
+
+.historial
+{
+    height: 400px;
+    overflow: auto;
+    height:85vh;
+}
+
+.conectados
+{
+    height: 400px;
+    border-right: 1px solid #ccc;
+    overflow: auto;
+    background-color: white;
+    height:100vh;
+}
+
+.hoption
+{
+    height: 55px;
+    padding: 10px;        
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: white;
+    color: black;
+}
+
+.cases
+{
+    border-bottom: 1px solid #ccc;
+    padding-top: 8px;
+    padding-bottom: 8px;        
+}
+
+.inicialhistorial
+{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.casoSelecciona
+{
+    background-color: #00BCD4;
+    color: white;
+}
+
+.noselecciona
+{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.msgcontrol
+{
+    text-align: center;
+    color: #9e9e9e;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+
+.mensajeChat
+{
+    font-size: 1em;
+    background-color:#fff;
+    border-radius:5px;
+    box-shadow:0 0 6px #B2B2B2;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-sizing: content-box;
+    white-space: -moz-pre-wrap!important;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
+    width: 85%;
+}
+
+.nombremensaje
+{    
+    /*border: 1px solid red;*/
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.fechamensaje
+{
+    text-align: right;
+}
+
+sup
+{
+    font-size: 0.5em;
+}
+
+
+.foto
+{
+    display: inline-block; 
+    width: 25%; 
+    vertical-align: top; 
+    text-align: center;
+}
+
+.foto img
+{
+    width: 50px;
+    height: 50px;
+}
+
+.nombre
+{
+    display: inline-block;
+    padding-top: 10px;  
+    width: 70%;
+}
